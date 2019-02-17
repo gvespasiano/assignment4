@@ -21,6 +21,9 @@ speech = [
 var yearDiff = (india.year-finest.year);
 
 //Console Logs
+window.onload = function(){
+	console.log("Ghandi's speech and Churchill's speech are "+ yearDiff +" years apart.")
+};
 document.getElementById('BtnDonate').addEventListener('click', function(){
     console.log ("There are " + speech.length + " speeches on the page.");
 });
